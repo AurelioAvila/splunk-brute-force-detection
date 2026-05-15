@@ -47,6 +47,16 @@ source="windows_security.log" EventCode=4625
 - **Failed Attempts:** 5 in 4 seconds
 - **VERDICT: BRUTE FORCE DETECTED**
 
+- ## 🎯 MITRE ATT&CK Mapping
+
+| Technique | ID | Description |
+|-----------|-----|-------------|
+| Brute Force: Password Guessing | [T1110.001](https://attack.mitre.org/techniques/T1110/001/) | Multiple failed logon attempts against a single account |
+| Brute Force: Password Spraying | [T1110.003](https://attack.mitre.org/techniques/T1110/003/) | High volume of failures across short timeframe |
+| Valid Accounts | [T1078](https://attack.mitre.org/techniques/T1078/) | Potential objective if brute force succeeds |
+
+**Tactic:** Credential Access (TA0006)
+
 ## 📸 Screenshot
 
 ![Brute force detection — SPL query results](screenshot_splunk_brute_force.png)
@@ -56,3 +66,13 @@ source="windows_security.log" EventCode=4625
 - How to write SPL queries for threat detection
 - How to identify brute force patterns using stats and aggregation
 - How SPL compares to KQL (Microsoft Sentinel)
+
+- ---
+
+## 🔗 Related Projects
+
+| Project | Description |
+|---------|-------------|
+| [soc-home-lab](https://github.com/AurelioAvila/soc-home-lab) | End-to-end SOC lab with Microsoft Sentinel and Wazuh |
+| [malware-triage-hash](https://github.com/AurelioAvila/malware-triage-hash) | Python tool for malware triage via VirusTotal API |
+| [phishing-email-analysis](https://github.com/AurelioAvila/phishing-email-analysis) | Email header parser and IOC extractor |

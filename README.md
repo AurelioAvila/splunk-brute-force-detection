@@ -47,9 +47,9 @@ source="windows_security.log" EventCode=4625
 - **Failed Attempts:** 5 in 4 seconds
 - **VERDICT: BRUTE FORCE DETECTED**
 
-## Evidence
-- `screenshot_splunk_query1.png` — Failed logon events timeline
-- `screenshot_splunk_brute_force.png` — Brute force detection query
+## 📸 Screenshot
+
+![Brute force detection — SPL query results](screenshot_splunk_brute_force.png)
 
 ## What I Learned
 - How to ingest and parse Windows Security logs in Splunk Cloud

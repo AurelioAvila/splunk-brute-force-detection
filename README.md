@@ -47,7 +47,7 @@ source="windows_security.log" EventCode=4625
 - **Failed Attempts:** 5 in 4 seconds
  **VERDICT: BRUTE FORCE DETECTED**
 
-- ## 🎯 MITRE ATT&CK Mapping
+ ## 🎯 MITRE ATT&CK Mapping
 
 | Technique | ID | Description |
 |-----------|-----|-------------|

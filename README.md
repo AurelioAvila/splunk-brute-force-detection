@@ -45,9 +45,9 @@ source="windows_security.log" EventCode=4625
 - **Source IP:** 192.168.1.105
 - **Target Account:** administrator
 - **Failed Attempts:** 5 in 4 seconds
- **VERDICT: BRUTE FORCE DETECTED**
+- **VERDICT: BRUTE FORCE DETECTED**
 
- ## 🎯 MITRE ATT&CK Mapping
+## 🎯 MITRE ATT&CK Mapping
 
 | Technique | ID | Description |
 |-----------|-----|-------------|
@@ -67,7 +67,7 @@ source="windows_security.log" EventCode=4625
 - How to identify brute force patterns using stats and aggregation
 - How SPL compares to KQL (Microsoft Sentinel)
 
-- ---
+---
 
 ## 🔗 Related Projects
 

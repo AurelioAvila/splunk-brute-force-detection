@@ -1,6 +1,8 @@
 # SOC Lab — Brute Force Detection with Splunk
 
-[![Buy me a coffee](https://img.shields.io/badge/%E2%98%95%20Buy%20me%20a%20coffee-one--off%2C%20no%20account-FF5500?style=flat-square&labelColor=1c1c1c)](https://buy.stripe.com/28E3cvdoZdzTdRiedY9Ve00)
+SPL detections for brute force against Windows authentication logs — the
+queries, the threshold tuning that keeps them from drowning Tier 1, and the
+triage that turns an alert into a verdict, mapped to MITRE ATT&CK.
 
 ## Scenario
 A Windows endpoint generated multiple failed authentication events

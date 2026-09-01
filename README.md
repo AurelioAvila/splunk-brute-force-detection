@@ -1,5 +1,7 @@
 # SOC Lab — Brute Force Detection with Splunk
 
+[![Buy me a coffee](https://img.shields.io/badge/%E2%98%95%20Buy%20me%20a%20coffee-one--off%2C%20no%20account-FF5500?style=flat-square&labelColor=1c1c1c)](https://buy.stripe.com/28E3cvdoZdzTdRiedY9Ve00)
+
 ## Scenario
 A Windows endpoint generated multiple failed authentication events
 in a short timeframe. I ingested the logs into Splunk Cloud and

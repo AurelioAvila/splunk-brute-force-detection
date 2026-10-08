@@ -63,7 +63,7 @@ source="windows_security.log" EventCode=4625
 
 ## 📸 Screenshot
 
-![Brute force detection — SPL query results](screenshot_splunk_brute_force.png)
+![Brute force detection — SPL query results](docs/screenshots/screenshot_splunk_brute_force.png)
 
 ## What I Learned
 - How to ingest and parse Windows Security logs in Splunk Cloud
